@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  background-color: #f4f8f6;
+  color: #263b35;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header, footer {
+  background-color: #deeee5;
+  padding: 12px 20px;
+}
+
+header p, footer p {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 15px;
+  margin-top: 8px;
+}
+
+a {
+  color: #164b68;
+}
+
+nav a[aria-current="page"] {
+  font-weight: bold;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px 20px 24px;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
+.card, fieldset, details {
+  background-color: white;
+  border: 1px solid #b9d0c5;
+  margin-bottom: 12px;
+  padding: 10px 14px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+fieldset label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+select {
+  padding: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+caption, th, td {
+  text-align: left;
+  padding: 7px;
+}
+
+th, td {
+  border: 1px solid #b9d0c5;
+}
+
+th {
+  background-color: #deeee5;
+}
+
+@media (max-width: 600px) {
+  header, main, footer {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  nav {
+    gap: 5px 10px;
+  }
+
+  th, td {
+    padding: 4px;
+  }
+}
