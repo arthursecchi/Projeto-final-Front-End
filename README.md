@@ -22,7 +22,7 @@ Site educativo sobre prevenção em saúde, cuidados com cães e gatos e Saúde 
 
 ## Como abrir
 
-1. Abra a pasta `projeto final israel`.
+1. Abra a pasta `projeto final front-end`.
 2. Dê dois cliques no arquivo `index.html` para abrir o site no navegador.
 3. Use o menu para navegar entre as páginas.
 
